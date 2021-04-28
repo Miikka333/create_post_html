@@ -1,0 +1,48 @@
+
+
+<!-- Start of create post modal -->
+<div id="postModal" class="modal">
+    <!-- Modal content -->
+    <div class="modal-content">
+        <div class="modal-header">
+            <span class="close">&times;</span>
+            <!-- <h2>Modal Header</h2> -->
+        </div>
+        <div class="modal-body">
+
+
+            <section class="create-post-section" id="createPost">
+                <h1 class="form-header">Create post</h1>
+                <form id="createForm">
+                    <!-- TODO: form validation -->
+                    <!-- TODO: form hints -->
+                    <!-- TODO: Add error message for all fields -->
+                    <input type="text" id="post-file" name="file" placeholder="Select file">
+                    <br />
+                    <label for="post-file" class="select-file-label">Jpeg/Png/Gif/Avi [max 2MB]</label>
+                    <br />
+                    <input type="text" id="post-location" name="location" placeholder="Location">
+                    <br />
+                    <br />
+                    <input type="text" id="post-date" name="date" placeholder="Date">
+                    <br>
+                    <br />
+                    <input type="text" id="post-tag" name="tag" placeholder="Tag">
+                    <br>
+                    <br />
+                    <input type="text" id="post-description" name="description" placeholder="Description:max 256 charecters">
+                    <br>
+                    <br />
+                    <span class="error" id="postError">Post creation failed</span>
+                    <button type="submit" class="create-btn" id="createBtn">Create and publish</button>
+                </form>
+            </section>
+        </div>
+        <div class="modal-footer">
+            <!-- <h3>Modal Footer</h3> -->
+        </div>
+    </div>
+
+</div>
+
+<!-- End of create post modal -->
